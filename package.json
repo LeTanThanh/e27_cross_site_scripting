@@ -1,0 +1,5 @@
+{
+  "name": "e27_cross_site_scripting",
+  "private": true,
+  "dependencies": {}
+}
