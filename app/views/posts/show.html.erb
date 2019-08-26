@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Post <%= @post.title %></h2>
+
+  <div class="panel panel-default">
+    <div class="panel-body"><%= @post.content %></div>
+  </div>
+
+  <h3>Comments (<%= pluralize @comments.size, "comment" %>)</h2>
+
+  <%= render partial: "comment", collection: @comments %>
+</div>
